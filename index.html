@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <!-- Third party plugin CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
@@ -39,11 +40,11 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">ACM Pune Regional Celebration</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold" data-aos="flip-up">ACM Pune Regional Celebration</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">11th October 2020</p>
+                        <p class="text-white-75 font-weight-light mb-5" data-aos="fade-up">11th October 2020</p>
                         <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a> -->
                     </div>
                 </div>
@@ -57,14 +58,14 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">About</h2>
+                        <h2 class="text-white mt-0" data-aos="fade-up">About</h2>
                         <hr class="divider light my-4" />
-                        <p class="text-white-50 mb-4">PASCKATHON 2.0 2020 is a week long, open for all
+                        <p class="text-white-50 mb-4" data-aos="fade-up">PASCKATHON 2.0 2020 is a week long, open for all
                             event where participants can use any technology to build their hacks. Some of the suggested
                             domains
                             are: Machine Learning, Blockchain, Internet of Things, Artificial Intelligence, Big Data, Cyber
                             Security, Cloud and DevOps.</p>
-                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">PASCKATHON 2.0</a>
+                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services" data-aos="fade-up">PASCKATHON 2.0</a>
                     </div>
                 </div>
             </div>
@@ -72,11 +73,11 @@
         
         <!-- Timeline -->
         <div class="container" id="timeline">
-            <h1 style="text-align:center;margin-top: 30px;margin-bottom: 20px;">Timeline</h1>
+            <h1 style="text-align:center;margin-top: 30px;margin-bottom: 20px;" data-aos="fade-up">Timeline</h1>
             <div class="row">
                 <div class="col-md-12">
                     <div class="main-timeline">
-                        <div class="timeline">
+                        <div class="timeline"data-aos="fade-up-left">
                             <a href="#" class="timeline-content">
                                 <div class="timeline-icon">
                                     <i class="fa fa-globe"></i>
@@ -88,7 +89,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="timeline">
+                        <div class="timeline"data-aos="fade-up-right">
                             <a href="#" class="timeline-content">
                                 <div class="timeline-icon">
                                     <i class="fa fa-rocket"></i>
@@ -100,7 +101,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="timeline">
+                        <div class="timeline" data-aos="fade-up-left">
                             <a href="#" class="timeline-content">
                                 <div class="timeline-icon">
                                     <i class="fa fa-rocket"></i>
@@ -112,7 +113,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="timeline">
+                        <div class="timeline" data-aos="fade-up-right">
                             <a href="#" class="timeline-content">
                                 <div class="timeline-icon">
                                     <i class="fa fa-rocket"></i>
@@ -124,7 +125,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="timeline">
+                        <div class="timeline" data-aos="fade-up-left">
                             <a href="#" class="timeline-content">
                                 <div class="timeline-icon">
                                     <i class="fa fa-rocket"></i>
@@ -136,7 +137,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="timeline">
+                        <div class="timeline" data-aos="fade-up-right">
                             <a href="#" class="timeline-content">
                                 <div class="timeline-icon">
                                     <i class="fa fa-rocket"></i>
@@ -148,7 +149,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="timeline">
+                        <div class="timeline" data-aos="fade-up-left">
                             <a href="#" class="timeline-content">
                                 <div class="timeline-icon">
                                     <i class="fa fa-rocket"></i>
@@ -160,7 +161,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="timeline">
+                        <div class="timeline" data-aos="fade-up-right">
                             <a href="#" class="timeline-content">
                                 <div class="timeline-icon">
                                     <i class="fa fa-rocket"></i>
@@ -190,6 +191,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+              offset : 200,
+              duration : 1000
+          });
+        </script>
     </body>
 </html>
