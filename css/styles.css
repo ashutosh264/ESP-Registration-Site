@@ -31,6 +31,13 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+#logo{
+	background: url(/assets/img/pasc.png);
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+}
+
 *,
 *::before,
 *::after {
