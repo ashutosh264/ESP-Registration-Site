@@ -10896,3 +10896,13 @@ header.masthead h1 {
     font-size: 18px;
   }
 }
+
+.radiance {
+  width: 500px;
+}
+
+@media (max-width: 700px) {
+  .radiance {
+    width: 90%;
+  }
+}
